@@ -1,0 +1,202 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	../ssc_mirbase_mature.fasta
+Reference Filename:	../ssc_3pUTR_ens.fasta
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:ssc-miR-378 MIMAT0013868(22 nt)
+Read Sequence:susScr3_ensGene_ENSSSCT00000004461 range=chr1:8330536-8330975 5'pad=0 3'pad=0 strand=- repeatMasking=none(440 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000004461
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000004906 range=chr1:92246149-92246917 5'pad=0 3'pad=0 strand=- repeatMasking=none(769 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000004906
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000004983 range=chr1:109020804-109021782 5'pad=0 3'pad=0 strand=- repeatMasking=none(979 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000004983
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000005402 range=chr1:176119417-176120443 5'pad=0 3'pad=0 strand=- repeatMasking=none(1027 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000005402
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000005755 range=chr1:243229381-243232704 5'pad=0 3'pad=0 strand=- repeatMasking=none(3324 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000005755
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000004459 range=chr1:7812493-7812493 5'pad=0 3'pad=0 strand=+ repeatMasking=none(1 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000004459
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000004478 range=chr1:9420559-9420573 5'pad=0 3'pad=0 strand=- repeatMasking=none(15 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000004478
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000004486 range=chr1:10432694-10432919 5'pad=0 3'pad=0 strand=- repeatMasking=none(226 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000004486
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000028436 range=chr1:11472726-11476684 5'pad=0 3'pad=0 strand=- repeatMasking=none(3959 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000028436
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 151.000000  Q:2 to 12  R:276 to 297 Align Len (10) (90.00%) (100.00%)
+
+   Query:    3' cggaagacugaGGUUCAGGUCa 5'
+                           ||:||||||| 
+   Ref:      5' agggccgtgggCCGAGTCCAGg 3'
+
+   Energy:  -27.150000 kCal/Mol
+
+Scores for this hit:
+>ssc-miR-378	susScr3_ensGene_ENSSSCT00000028436	151.00	-27.15	2 12	276 297	10	90.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>ssc-miR-378	susScr3_ensGene_ENSSSCT00000028436	151.00	-27.15	151.00	-27.15	9	22	3959	 276
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000027128 range=chr1:13622194-13623106 5'pad=0 3'pad=0 strand=- repeatMasking=none(913 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000027128
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000004545 range=chr1:18852325-18854218 5'pad=0 3'pad=0 strand=- repeatMasking=none(1894 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000004545
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000034966 range=chr1:18854001-18854218 5'pad=0 3'pad=0 strand=- repeatMasking=none(218 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000034966
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000004558 range=chr1:22999275-23001396 5'pad=0 3'pad=0 strand=- repeatMasking=none(2122 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000004558
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000004594 range=chr1:30408837-30408868 5'pad=0 3'pad=0 strand=+ repeatMasking=none(32 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000004594
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000034018 range=chr1:30408837-30408868 5'pad=0 3'pad=0 strand=+ repeatMasking=none(32 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000034018
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000004644 range=chr1:36632463-36634166 5'pad=0 3'pad=0 strand=- repeatMasking=none(1704 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000004644
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000004650 range=chr1:38838470-38839873 5'pad=0 3'pad=0 strand=+ repeatMasking=none(1404 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000004650
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:susScr3_ensGene_ENSSSCT00000027938 range=chr1:40815279-40817429 5'pad=0 3'pad=0 strand=- repeatMasking=none(2151 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: ssc-miR-378 vs susScr3_ensGene_ENSSSCT00000027938
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:1 to 8 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' cggaagacugagguUCAGGUCa 5'
+                              ||||||| 
+   Ref:      5' --------------AGTCCAGa 3'
+
+   Energy:  -11.630000 kCal/Mol
+
+Scores for this hit:
+>ssc-miR-378	susScr3_ensGene_ENSSSCT00000027938	140.00	-11.63	2 9	1 8	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>ssc-miR-378	susScr3_ensGene_ENSSSCT00000027938	140.00	-11.63	140.00	-11.63	18	22	2151	 1
+Complete
