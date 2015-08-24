@@ -43,7 +43,7 @@ class Scan {
 	std::vector< std::string > chr_range;
 
 	// Range that miRNA binds, a subset of chr_range
-	std::vector< std:: string > bind_range;
+	std::vector< std::string > bind_range;
 
 	// Strand that reference UTR came from
 	std::string strand;
@@ -66,16 +66,7 @@ public:
 };
 
 
-// Globals used for parse_l()
-char sep = ':';
-char sep_range = '-';
-char sep_equals = '=';
 
-// Utility function to split a string into a vector
-// Overloaded to include delimiter or not
-std::vector< std::string > parse_l(const std::string& line);
-std::vector< std::string > parse_l(const std::string& line,
-                                   char sep);
 
 
 #endif

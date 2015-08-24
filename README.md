@@ -5,10 +5,10 @@ Tabulates results returning each miRNA, target gene, and target site in chromsom
 
 ### Example Installation
 ```
-g++ -std=c++11 miranda_main.cpp miranda.cpp -o ../miranda
+g++ -std=c++11 miranda_main.cpp miranda.cpp -o ../mirandaparser
 ```
 
 ### Example usage
 ```
-./miranda miranda_sample.out
+./mirandaparser miranda_sample.out
 ```
